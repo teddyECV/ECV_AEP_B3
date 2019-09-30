@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Exo 1: Les balises HTML</title>
+    </head>
+    <body>
+        <header>
+            <h1>Mon site Web</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#about">A propos</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="https://fr.linkedin.com/in/teddy-cl%C3%A9ment" target="_blank">Linkedin</a></li>                    
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about">
+                <h2>A propos</h2>
+
+                <h3>Education</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic autem nam ipsa minus molestias quidem dolorum fugiat reprehenderit. Libero ex nemo id commodi quibusdam sunt molestiae rem illo cumque beatae?</p>
+
+                <h3>Métier</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero eius repellendus veritatis dicta ipsum excepturi consequuntur vel, rem nam voluptatibus molestiae voluptate aliquam sapiente fuga et. Voluptas ea perspiciatis provident!</p>
+            </section>
+
+            <section id="portfolio">
+                <h2>Portfolio</h2>
+                <ul>
+                    <li>
+                        <img src="./img/campagne.jpg" alt="campagne">
+                    </li>
+                    <li>
+                        <img src="./img/ocean.gif" alt="ocean">
+                    </li>
+                    <li>
+                        <img src="./img/terre.jpg" alt="terre">
+                    </li>
+                </ul>
+            </section>
+
+            <section id="contacts">
+                <h2>Contacts</h2>
+
+                <form action="#">
+                    <label>Votre nom</label>
+                    <input type="text"name="userName">
+
+                    <label>Votre email</label>
+                    <input type="email"name="userEmail">
+
+                    <label>Votre message</label>
+                    <textarea name="userMessage">
+
+                    <button type="submit">Envoyer</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>Under WTFPL Public Licence</p>
+        </footer>
+    </body>
+</html>
